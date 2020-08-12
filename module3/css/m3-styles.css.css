@@ -154,10 +154,17 @@ h1{
    text-align: center;
 }
 
+
+  
+
+
+
+
+
 .m3content{
    padding: 10px;
    background-color:#FFD1A4;
-   border: 6px solid black;
+   border: 7px solid black;
    text-align: center;
 
 }
@@ -167,4 +174,10 @@ p {
   background-color: #FFD1A4;
   color: black;
   height: 1000px;
+}
+.navbar-brand{
+  background-color: green;
+  font-size: 3em;
+  color: white;
+  margin-left: 10px;
 }

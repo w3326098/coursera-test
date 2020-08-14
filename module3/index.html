@@ -1,49 +1,93 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>David Chu's China Bistro</title>
-      <script src="js/jquery-2.1.4.min.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
- 
-  </head>
+<head>
+  <title>Allison's module3</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="css/bootstrap.min.js"></script>
+        <script src="js/jquery-3.5.1.min.js"></script>
+
+</head>
 <body>
-  <header>
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="index.html" class="pull-left visible-md visible-lg">
-            <div id="logo-img"></div>
-          </a>
-
-          <div class="navbar-brand">
-            <a href="index.html"><h1>David Chu's China Bistro</h1></a>
-            <p>
-              <img src="images/star-k-logo.png" alt="Kosher certification">
-              <span>K   4854osher Certified</span>
-            </p>
-          </div>
-
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-
-        </div>
-      </div>
-    </nav>
-
-  </header>
 
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
+<style>
+.navbar-expand{
+  -sm
+}
+
+.container{
+background-color: yellow;
+padding:20px;
+height:1000px;
+}
+
+.container-1{
+text-align:center;
+}
+.h2{
+margin:0px auto;
+}
+
+.navbar-brand{
+font-size:2em;
+background:green;
+}
+
+
+
+</style>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Food, LCC</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav d-md-none">
+      <li class="nav-item">
+        <a class="nav-link" href="#Chicken">Chicken</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Beef">Beef</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Sushi">Sushi</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<br>
+<div class="container-1"><h2>My menu</h2></div>
+<div class="container" id="Chicken">
+  <h4>Chicken</h4>
+  <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).</p>
+  <p>Only when the button is clicked, the navigation bar will be displayed.</p>
+  <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.</p>
+</div>
+</br>
+<div class="container" id="Beef">
+  <h4>Beef</h4>
+  <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).</p>
+  <p>Only when the button is clicked, the navigation bar will be displayed.</p>
+  <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.</p>
+</div>
+</br>
+<div class="container" id="Sushi">
+  <h4>Sushi</h4>
+  <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).</p>
+  <p>Only when the button is clicked, the navigation bar will be displayed.</p>
+  <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.</p>
+</div>
+
+
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
+
+
+
+
 </body>
 </html>
+
+

@@ -4,9 +4,14 @@
   <title>Allison's module3</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="js/jquery-2.1.4.min.js">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="js/bootstrap.min.js">
+   <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  
+  
+
+
 
 </head>
 <body>
@@ -26,16 +31,55 @@ text-align:center;
 }
 .h2{
 margin:0px auto;
+padding: 50px;
 }
 
 .navbar-brand{
 font-size:2em;
-background:green;
+
+.container-2{
+  text-align: center;
+  font-size: 2em;
+  margin: 20px;
+  padding:20px;
+  background-color: white;
 }
 
 
-
 </style>
+<nav role="navigation" class="navbar nav-tabs navbar-inverse bg-inverse navbar-toggleable">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+          <!--  <span class="navbar-toggler-icon"></span>-->
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+          <a class="navbar-brand" href="#">Food, LCC</a>
+        </div>
+        <div class=" collapse navbar-collapse" id="myNavbar">
+         <ul class="navbar-nav hidden-lg">
+      <li class="nav-item">
+        <a class="nav-link" href="#Chicken">Chicken</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Beef">Beef</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Sushi">Sushi</a>
+      </li>    
+    </ul>
+        </div>
+
+      </div>
+
+    </nav>
+</div>
+
+
+<!--
 
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
   <a class="navbar-brand" href="#">Food, LCC</a>
@@ -57,7 +101,20 @@ background:green;
   </div>  
 </nav>
 <br>
-<div class="container-1"><h2>My menu</h2></div>
+-->
+<div class="container-3"><h2>My menu</h2></div>
+
+ <div class="container-fluid row">
+  <div class="col-lg-12 col-md-12">
+    <div class="container">
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+  </div>
+    </div>
+
+
+
+
 <div class="container" id="Chicken">
   <h4>Chicken</h4>
   <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).</p>
@@ -78,10 +135,6 @@ background:green;
   <p>Only when the button is clicked, the navigation bar will be displayed.</p>
   <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.</p>
 </div>
-
-
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
 
 
 

@@ -1,0 +1,84 @@
+.navbar{
+   background-color: #642100;
+   padding: 10px;
+  color: white;
+}
+.collapse{
+   background-color: #642100;
+  color: white;
+}
+.navbar-collapse{
+   background-color: #642100;
+   color: white;
+}
+.navbar-header{
+   background-color: #642100;
+  color: white;
+}
+.container-1{
+background-color: #FFBB77;
+padding:20px;
+height:1000px;
+text-align: center;
+margin: 20px;
+}
+
+.menu{
+text-align: center;
+font-size: 3em;
+}
+
+.navbar-brand{
+font-size:3em;
+color: white;
+font-weight: bold;
+text-decoration: none;
+}
+
+.container-2{
+  text-align: center;
+  font-size: 2em;
+  margin: 20px;
+  padding:20px;
+  background-color: white;
+}
+
+.menu{
+  font-size: 2em;
+  font-weight: bold;
+  margin: 20px;
+  padding:5px;
+}
+.icon-bar{
+  display: none;
+}
+.nav-item1{
+  text-align: center;
+  color:white;
+  list-style:none;
+  font-size: 1em;
+}
+.navbar-nav{
+  text-align: center;
+  color:white;
+  list-style:none;
+  font-size: 1em;
+}
+
+
+
+.h4{
+  font-weight: bold;
+}
+
+a:link
+{ text-decoration: none;
+  color: #white;
+}
+a:hover {
+  color: #white;
+  text-decoration: none;
+}
+.navbar{
+  color: white;
+}

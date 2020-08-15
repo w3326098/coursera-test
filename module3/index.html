@@ -8,6 +8,9 @@
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     <link href="css/style-module3" rel="stylesheet">
+  
+
   
   
 
@@ -18,24 +21,42 @@
 
 
 <style>
-
-
-.container{
-background-color: pink;
+.navbar{
+   background-color: #642100;
+   padding: 10px;
+  color: white;
+}
+.collapse{
+   background-color: #642100;
+  color: white;
+}
+.navbar-collapse{
+   background-color: #642100;
+   color: white;
+}
+.navbar-header{
+   background-color: #642100;
+  color: white;
+}
+.container-1{
+background-color: #FFBB77;
 padding:20px;
 height:1000px;
+text-align: center;
+margin: 20px;
 }
 
-.container-1{
-text-align:center;
-}
-.h2{
-margin:0px auto;
-padding: 50px;
+.menu{
+text-align: center;
+font-size: 3em;
 }
 
 .navbar-brand{
-font-size:2em;
+font-size:3em;
+color: white;
+font-weight: bold;
+text-decoration: none;
+}
 
 .container-2{
   text-align: center;
@@ -45,13 +66,53 @@ font-size:2em;
   background-color: white;
 }
 
+.menu{
+  font-size: 2em;
+  font-weight: bold;
+  margin: 20px;
+  padding:5px;
+}
+.icon-bar{
+  display: none;
+}
+.nav-item1{
+  text-align: center;
+  color:white;
+  list-style:none;
+  font-size: 1em;
+}
+.navbar-nav{
+  text-align: center;
+  color:white;
+  list-style:none;
+  font-size: 1em;
+}
+
+
+
+.h4{
+  font-weight: bold;
+}
+
+a:link
+{ text-decoration: none;
+  color: #white;
+}
+a:hover {
+  color: #white;
+  text-decoration: none;
+}
+.navbar{
+  color: white;
+}
 
 </style>
-<nav role="navigation" class="navbar nav-tabs navbar-inverse bg-inverse navbar-toggleable">
+
+<nav role="navigation" class="navbar  navbar-inverse navbar-toggleable">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="sr-only">Toggle navigation</span>
+            <span class="sr-only"></span>
           <!--  <span class="navbar-toggler-icon"></span>-->
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -60,14 +121,14 @@ font-size:2em;
           <a class="navbar-brand" href="#">Food, LCC</a>
         </div>
         <div class=" collapse navbar-collapse" id="myNavbar">
-         <ul class="navbar-nav hidden-lg">
-      <li class="nav-item">
+         <ul class="navbar-nav visible-xs">
+              <li class="nav-item1">
         <a class="nav-link" href="#Chicken">Chicken</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item1">
         <a class="nav-link" href="#Beef">Beef</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item1">
         <a class="nav-link" href="#Sushi">Sushi</a>
       </li>    
     </ul>
@@ -102,38 +163,33 @@ font-size:2em;
 </nav>
 <br>
 -->
-<div class="container-3"><h2>My menu</h2></div>
+<p class="menu text-center">My menu</p>
+
+
+
 
  <div class="container-fluid row">
   <div class="col-lg-12 col-md-12">
-    <div class="container">
+<div class="container-1" id="Chicken">
+  <h4>Chicken</h4>
    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
-  </div>
-    </div>
-
-
-
-
-<div class="container" id="Chicken">
-  <h4>Chicken</h4>
-  <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).</p>
-  <p>Only when the button is clicked, the navigation bar will be displayed.</p>
-  <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.</p>
-</div>
 </br>
-<div class="container" id="Beef">
+
+ <div class="container-fluid row">
+  <div class="col-lg-12 col-md-12">
+<div class="container-1" id="Beef">
   <h4>Beef</h4>
-  <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).</p>
-  <p>Only when the button is clicked, the navigation bar will be displayed.</p>
-  <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.</p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
+
 </br>
-<div class="container" id="Sushi">
+
+ <div class="container-fluid row">
+  <div class="col-lg-12 col-md-12">
+<div class="container-1" id="Sushi">
   <h4>Sushi</h4>
-  <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).</p>
-  <p>Only when the button is clicked, the navigation bar will be displayed.</p>
-  <p>Tip: You can also remove the .navbar-expand-md class to ALWAYS hide navbar links and display the toggler button.</p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
 
 
